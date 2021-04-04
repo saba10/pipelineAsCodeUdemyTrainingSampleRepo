@@ -1,4 +1,5 @@
 //Descritptive pipeline example
+//Visit documentation for additional options/syntax
 pipeline{
     environment{
         //this is declared as a string
