@@ -5,7 +5,7 @@ pipeline{
         stage('when->branch|tag|buildtags'){
 	    when{
 	        //branch 'dev'
-		//tag "release*"
+		tag "release*"
 		buildingTag()
             }
 	    steps{
