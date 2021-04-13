@@ -4,7 +4,9 @@ pipeline{
     stages{
         stage('when->branch|tag|buildtags'){
 	    when{
-	        branch 'main'
+	        //branch 'dev'
+		//tag "release*"
+		buildingTag()
             }
 	    steps{
 	        echo "testing when"
