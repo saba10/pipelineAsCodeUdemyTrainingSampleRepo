@@ -9,7 +9,7 @@ pipeline{
 		//buildingTag()                                    //true on all tags
 		changelog '.*test*'                               //true when commit message matches the expression provided 
 		//changeRequest()                                //true on all pull requests	
-		changeRequest title:'test-when*'
+		//changeRequest title:'test-when*'                 //true based on the pull request parameters
             }
 	    steps{
 	        echo "testing when"
