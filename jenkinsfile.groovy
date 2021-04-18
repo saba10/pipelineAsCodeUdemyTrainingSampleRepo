@@ -7,7 +7,7 @@ pipeline{
 	        //branch 'dev'                                   
 		//tag "release*"                     
 		//buildingTag()                                    //true on all tags
-		changelog '*test*'                               //true when commit message matches the expression provided 
+		changelog '.*test*'                               //true when commit message matches the expression provided 
 		//changeRequest()                                //true on all pull requests	
 		changeRequest title:'test-when*'
             }
