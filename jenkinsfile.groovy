@@ -1,4 +1,4 @@
-//Descriptive all in one for MBP concepts
+//Descriptive all in one for MBP conceptss
 pipeline{
     agent any
     stages{
